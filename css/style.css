@@ -1,0 +1,114 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.list-item-link{
+    color: black;
+    text-decoration:none ;
+    text-transform: uppercase;
+    padding: 2px;
+}
+.hero{
+    position: relative;
+    background-color: rgb(79, 173, 173);
+    width: 100%;
+    height: 100vh;
+    background-image: url(../css/fizjo1.jpg);
+    background-repeat: round;
+    background-size: contain;
+}
+.hero-text-box {
+    position: absolute;
+    top: 65%;
+    color: rgb(7, 32, 160);
+    left: 10% ;
+    background-color: aquamarine;
+    padding: 12px;
+    border-radius: 5px;
+}
+.hero-text-box .main{
+    font-size: 38px;
+}
+.hero-text-box .sub-main{
+    font-size: 22px;
+}
+.hero-btn{
+margin-top: 9px;
+padding: 9px 18px;
+box-shadow: none;
+outline: invert;
+background-color: beige;
+border: 2px solid beige;
+border-radius: 16 px;
+color: blue;
+}
+.O-nas{
+padding: 0%;
+}
+.O-nas-text{
+    color: black;
+    text-align: left;
+    margin-bottom: 0;
+}
+.O-nas-container{
+    width: 50%;
+    display: flex;
+}
+.O-nas-img{
+    size: 100%;
+}
+.O-nas2-text{
+    color: black;
+    text-align: right;
+    margin-bottom: 0;
+}
+.O-nas-container2{
+    width: 50%;
+    display: flex;
+}
+.list2{
+    position: center;
+    background-color: white;
+    text-align: center;
+}
+.reviews{
+    text-align: center;
+}
+.products{
+    background-color: aquamarine;
+}
+.list2{
+    background-color: aquamarine;
+}
+.reviews{
+    background-color: aquamarine;
+}
+.list-reviews{
+    background-color: aquamarine;
+}
+.contact{
+    background-color: aquamarine;
+}
+.contact-text-box{
+    background-color: aquamarine;
+}
+.O-nas{
+    background-color: aquamarine;
+}
+.O-nas2-text{
+    background-color: aquamarine;
+}
+.O-nas2-container{
+    background-color: aquamarine;
+}
+.tekst1{
+    background-color: aquamarine;
+}
+.list-item2{
+    font-size: 18px;
+}
